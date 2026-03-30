@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-03-30T10:00:00Z",
+  "anime": {
+    "description": "动漫解析规则",
+    "items": [
+      {
+        "name": "age",
+        "type": "anime",
+        "version": "1.0.0",
+        "deprecated": false,
+        "url": "https://raw.githubusercontent.com/jipika/WallHaven-Profiles/main/anime/age.json",
+        "description": "AGE 动漫源"
+      },
+      {
+        "name": "7sefun",
+        "type": "anime",
+        "version": "1.0.0",
+        "deprecated": false,
+        "url": "https://raw.githubusercontent.com/jipika/WallHaven-Profiles/main/anime/7sefun.json",
+        "description": "7sefun 动漫源"
+      },
+      {
+        "name": "dm84",
+        "type": "anime",
+        "version": "1.0.0",
+        "deprecated": false,
+        "url": "https://raw.githubusercontent.com/jipika/WallHaven-Profiles/main/anime/dm84.json",
+        "description": "DM84 动漫源"
+      },
+      {
+        "name": "gimy",
+        "type": "anime",
+        "version": "1.0.0",
+        "deprecated": false,
+        "url": "https://raw.githubusercontent.com/jipika/WallHaven-Profiles/main/anime/gimy.json",
+        "description": "Gimy 动漫源"
+      }
+    ]
+  }
+}
