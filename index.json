@@ -13,6 +13,17 @@
         }
       ]
     },
+    "media": {
+      "description": "媒体配置（壁纸+媒体源）",
+      "items": [
+        {
+          "name": "DataSourceProfile",
+          "version": "1.0.0",
+          "deprecated": false,
+          "url": "https://raw.githubusercontent.com/jipika/WallHaven-Profiles/main/DataSourceProfile.json"
+        }
+      ]
+    },
     "anime": {
       "description": "动漫解析规则",
       "items": [
