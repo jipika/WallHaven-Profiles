@@ -4,7 +4,7 @@
   "type": "anime",
   "name": "7sefun 动漫",
   "version": "1.0.0",
-  "deprecated": false,
+  "deprecated": true,
   "baseURL": "https://www.7sefun.top",
   "headers": {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
