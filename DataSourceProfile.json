@@ -31,16 +31,16 @@
           "detail": "/{slug}"
         },
         "parsing": {
-          "searchList": "//a[contains(@title, 'live wallpaper')]",
-          "searchName": ".//span[@class='ttl']/text()",
-          "searchResult": "@href",
-          "searchCover": ".//img/@src",
-          "nextPage": "//a[@rel='next']/@href",
-          "detailList": "//a[contains(@class, 'btn-dl')]/@href",
-          "detailName": ".//span/text()",
-          "detailLink": "@href",
-          "tagList": "//a[contains(@href, '/tag:')]",
-          "tagName": ".//text()"
+          "searchList": "a[title*='live wallpaper']",
+          "searchName": "span.ttl",
+          "searchResult": "href",
+          "searchCover": "img",
+          "nextPage": "a[rel='next']",
+          "detailList": "a.btn-dl",
+          "detailName": "span",
+          "detailLink": "href",
+          "tagList": "a[href^='/tag:']",
+          "tagName": ""
         }
       },
       "anime": null
