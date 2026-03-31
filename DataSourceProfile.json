@@ -5,7 +5,7 @@
       "id": "wallhaven-motionbgs-default",
       "name": "WallHaven + MotionBGs",
       "description": "内置默认配置：WallHaven 壁纸源 + MotionBGs 动态壁纸源",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "wallpaper": {
         "provider": "wallhaven_api",
         "displayName": "WallHaven",
@@ -35,13 +35,14 @@
           "searchName": "span.ttl",
           "searchResult": "href",
           "searchCover": "img",
-          "nextPage": "a.link--arrowed",
+          "nextPage": "",
           "detailList": "a.btn-dl",
           "detailName": "span",
           "detailLink": "href",
           "tagList": "a[href^='/tag:']",
           "tagName": ""
-        }
+        },
+        "paginationFormat": "MotionBGs 使用 /N/ 路径分页，如 /2/ 或 /tag:anime/2/，由代码后备正则匹配处理"
       },
       "anime": null
     }
